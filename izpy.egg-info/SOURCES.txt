@@ -5,3 +5,4 @@ izpy.egg-info/SOURCES.txt
 izpy.egg-info/dependency_links.txt
 izpy.egg-info/requires.txt
 izpy.egg-info/top_level.txt
+izpy.egg-info/zip-safe

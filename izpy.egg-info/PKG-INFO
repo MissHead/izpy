@@ -1,10 +1,15 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: izpy
 Version: 0.0.1
 Summary: AbstractTest class for generic calls in integration testing of API's
-Home-page: UNKNOWN
+Home-page: https://github.com/MissHead/izpy
 Author: Izabela Ramos Ferreira
-Author-email: UNKNOWN
-License: UNKNOWN
-Description: UNKNOWN
+Author-email: izabela.head@gmail.com
+License: GNU GENERAL PUBLIC LICENSE
+Description: # izpy
+        AbstractTest class for generic calls in integration testing of API's
+        
+Keywords: generic calls,curl
 Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

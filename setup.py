@@ -5,7 +5,10 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = "1.0.0"
+version = "0.0.2"
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 # python setup.py tag
 if sys.argv[-1] == 'tag':
@@ -22,6 +25,8 @@ if sys.argv[-1] == 'publish':
 setup(name="izpy",
       version=version,
       description="AbstractTest class for generic calls in integration testing of API's",
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       license="GNU GENERAL PUBLIC LICENSE",
       install_requires=["json","requests"],
       author="Izabela Ramos Ferreira",
@@ -29,4 +34,5 @@ setup(name="izpy",
       url="https://github.com/MissHead/izpy",
       packages = find_packages(),
       keywords= "generic calls, curl",
-      zip_safe = True)
+      zip_safe = True,
+      python_requires='>=3.6')
