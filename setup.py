@@ -5,7 +5,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = "0.0.2"
+version = "0.0.3"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -28,11 +28,10 @@ setup(name="izpy",
       long_description=long_description,
       long_description_content_type="text/markdown",
       license="GNU GENERAL PUBLIC LICENSE",
-      install_requires=["json","requests"],
       author="Izabela Ramos Ferreira",
       author_email="izabela.head@gmail.com",
       url="https://github.com/MissHead/izpy",
-      packages = find_packages(),
-      keywords= "generic calls, curl",
-      zip_safe = True,
+      packages=find_packages(),
+      keywords="generic calls, curl",
+      zip_safe=True,
       python_requires='>=3.6')

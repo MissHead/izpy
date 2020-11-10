@@ -1,6 +1,7 @@
 import requests
 import json
 
+
 class AbstractTest:
 
     def __init__(self, prefix, authorization, url='', headers=''):
