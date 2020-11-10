@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: izpy
-Version: 0.0.5
+Version: 0.0.6
 Summary: AbstractTest class for generic calls in integration testing of API's
 Home-page: https://github.com/MissHead/izpy
 Author: Izabela Ramos Ferreira
