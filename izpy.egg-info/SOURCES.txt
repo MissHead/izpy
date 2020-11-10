@@ -1,0 +1,10 @@
+README.md
+setup.py
+izpy/__init__.py
+izpy/errors.py
+izpy/requests.py
+izpy.egg-info/PKG-INFO
+izpy.egg-info/SOURCES.txt
+izpy.egg-info/dependency_links.txt
+izpy.egg-info/top_level.txt
+izpy.egg-info/zip-safe

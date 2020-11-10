@@ -4,8 +4,9 @@ import requests
 
 class AbstractTest:
 
-    def __init__(self, url, headers, **kwargs):
-        self.url = url
+    def __init__(self, prefix, authorization, url='', headers=''):
+        self.url = url + prefix
+        headers.update(authorization)
         self.headers = headers
 
     def __curl__(self, route, data, method):
