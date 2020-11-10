@@ -31,7 +31,7 @@ setup(name="izpy",
       author="Izabela Ramos Ferreira",
       author_email="izabela.head@gmail.com",
       url="https://github.com/MissHead/izpy",
-      packages=find_packages(),
+      packages=["calls": "src"],
       keywords="generic calls, curl",
       zip_safe=True,
       python_requires='>=3.6')
